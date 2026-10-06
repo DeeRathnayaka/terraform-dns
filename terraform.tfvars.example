@@ -1,0 +1,4 @@
+domain_name  = "example.com"
+record_name  = "training"
+record_value = "203.0.113.10"
+ttl          = 300
