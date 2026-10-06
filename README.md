@@ -1,34 +1,28 @@
 # Terraform DNS Training
 
-A small Terraform project for managing a DigitalOcean DNS A record.
+A small Terraform project for learning how Terraform manages DNS records with DigitalOcean.
 
 ## Purpose
 
-This project is a training exercise for learning:
+This project is a practical Terraform training exercise covering:
 
 - Terraform configuration
-- DigitalOcean provider
 - Terraform variables
 - Input validation
+- Terraform providers
 - Terraform state
-- Terraform plan and apply
-- DNS record lifecycle
-- Safe handling of credentials
+- Terraform plan
+- Terraform resource lifecycle
 - Git workflow
 
 ## Requirements
 
-For local development and validation:
+For local development:
 
 - Ubuntu / WSL
 - Terraform >= 1.15.0
 
-For applying changes to DigitalOcean:
-
-- DigitalOcean account
-- DigitalOcean Personal Access Token
-
-A DigitalOcean token is not required for writing, formatting, or validating the Terraform configuration. It is required when Terraform needs to authenticate with DigitalOcean to manage real infrastructure.
+No DigitalOcean account or credentials are required for the current learning stage.
 
 ## Project Structure
 
@@ -39,6 +33,7 @@ A DigitalOcean token is not required for writing, formatting, or validating the 
 ├── main.tf
 ├── outputs.tf
 ├── provider.tf
+├── README.md
 ├── terraform.tfvars.example
 ├── variables.tf
 └── versions.tf
